@@ -77,6 +77,12 @@ p {
   color: white;
 }
 
+.p-heading {
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
 .btn-branding-outline {
   border: 1px solid var(--branding-color);
   border-radius: 4px;
@@ -113,7 +119,7 @@ img {
   justify-content: space-around;
 }
 
-.footer h3{
+.footer h3 {
   font-size: 40px;
 }
 
@@ -121,24 +127,24 @@ img {
   margin-top: 1rem;
 }
 
-.footer p{
+.footer p {
   margin: 1rem 0 0 4rem;
 }
 
-.email{
+.email {
   font-size: 10px;
 }
 
-.flex{
+.flex {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-i.fa-brands{
+i.fa-brands {
   font-size: 1.5rem;
-  background-color: #6C63FF0D;
-  padding: .5rem;
+  background-color: #6c63ff0d;
+  padding: 0.8rem;
   color: var(--branding-color);
   border-radius: 50%;
   margin: 1rem;
