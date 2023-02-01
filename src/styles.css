@@ -1,3 +1,11 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
   --branding-color: #6c63ff;
   --secondary-color: #f9f7fe;
@@ -6,10 +14,14 @@
 }
 
 body {
-  padding: 160px 20px;
   font-family: var(--default-font-family);
+}
+
+.hero {
+  height: 80vh;
+  padding: 140px 20px;
   text-align: center;
-  background-color: #ffd6ff1c;
+  background-color: #f9f7fe;
 }
 
 h1,
@@ -23,7 +35,14 @@ h6 {
   font-weight: bold;
 }
 
+h2 {
+  font-size: 46px;
+}
+
 p {
+  font-size: 16px;
+  line-height: 1.8;
+  font-size: normal;
   font-family: var(--default-font-family);
 }
 
@@ -51,4 +70,76 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.btn-branding:hover {
+  background: var(--branding-color);
+  color: white;
+}
+
+.btn-branding-outline {
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.btn-branding-outline:hover {
+  border: none;
+  color: #fff;
+  background: var(--branding-color);
+}
+
+.project-desc {
+  padding: 120px 60px;
+}
+
+img {
+  border-radius: 1rem;
+}
+
+.footer {
+  margin: 0 auto;
+  max-width: 50rem;
+  padding: 30px 20px;
+  background: #f9f7fe;
+  border-radius: 20px;
+}
+
+.main-foot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer h3{
+  font-size: 40px;
+}
+
+.main-foot a {
+  margin-top: 1rem;
+}
+
+.footer p{
+  margin: 1rem 0 0 4rem;
+}
+
+.email{
+  font-size: 10px;
+}
+
+.flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+i.fa-brands{
+  font-size: 1.5rem;
+  background-color: #6C63FF0D;
+  padding: .5rem;
+  color: var(--branding-color);
+  border-radius: 50%;
+  margin: 1rem;
 }
