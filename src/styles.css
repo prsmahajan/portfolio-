@@ -24,6 +24,11 @@ body {
   background-color: #f9f7fe;
 }
 
+.about-hero {
+  height: 80vh;
+  padding: 160px 70px;
+}
+
 h1,
 h2,
 h3,
@@ -37,6 +42,17 @@ h6 {
 
 h2 {
   font-size: 46px;
+}
+
+.about-hero {
+  text-align: left;
+}
+
+.about-h4 {
+  font-size: 20px;
+  font-weight: normal;
+  margin: 1rem 0 3rem;
+  font-family: var(--default-font-family);
 }
 
 p {
@@ -156,7 +172,7 @@ i.fa-brands {
     width: 100vw;
   }
 
-  .p-heading{
+  .p-heading {
     padding: 0 2rem;
   }
 
