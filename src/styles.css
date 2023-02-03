@@ -187,7 +187,7 @@ i.fa-brands {
     padding: 2rem -60px;
   }
 
-  .row img {
+  .hero.row img {
     display: none;
   }
 
@@ -195,6 +195,11 @@ i.fa-brands {
   .hero h1 {
     font-size: 60px;
     line-height: 1.2;
+  }
+
+  .about-hero{
+    padding: 70px 10px;
+    height: 100vh;
   }
 
   .main-foot {
