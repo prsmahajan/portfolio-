@@ -149,3 +149,48 @@ i.fa-brands {
   border-radius: 50%;
   margin: 1rem;
 }
+
+@media (max-width: 868px) {
+  .hero {
+    height: 80vh;
+    width: 100vw;
+  }
+
+  .p-heading{
+    padding: 0 2rem;
+  }
+
+  .project-desc {
+    padding: 5px;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem -60px;
+  }
+
+  .row img {
+    display: none;
+  }
+
+  h1,
+  .hero h1 {
+    font-size: 60px;
+    line-height: 1.2;
+  }
+
+  .main-foot {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer p {
+    display: none;
+  }
+
+  .main-foot h3 {
+    font-size: 33px;
+  }
+}
