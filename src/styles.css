@@ -24,9 +24,23 @@ body {
   background-color: #f9f7fe;
 }
 
-.about-hero {
+.content-hero {
   height: 80vh;
   padding: 160px 70px;
+  text-align: left;
+}
+
+#work{
+  height: auto;
+}
+
+.content h4, .content p{
+  text-align: center;
+}
+
+.content img{
+  justify-self: center;
+  max-height: 566px;
 }
 
 h1,
@@ -44,11 +58,11 @@ h2 {
   font-size: 46px;
 }
 
-.about-hero {
-  text-align: left;
+.content h1{
+  font-size: 56px;
 }
 
-.about-h4 {
+.content-h4 {
   font-size: 20px;
   font-weight: normal;
   margin: 1rem 0 3rem;
@@ -197,7 +211,7 @@ i.fa-brands {
     line-height: 1.2;
   }
 
-  .about-hero{
+  .about-hero {
     padding: 70px 10px;
     height: 100vh;
   }
