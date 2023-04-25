@@ -7,7 +7,7 @@
 }
 
 :root {
-  --branding-color: #6c63ff;
+  --branding-color: whitesmoke;
   --secondary-color: #f9f7fe;
   --heading-font-family: 'Playfair Display', serif;
   --default-font-family: 'Poppins', sans-serif;
@@ -27,7 +27,7 @@ body {
 
 .content-hero {
   height: auto;
-  padding: 80px 70px;
+  padding: 50px 35px;
   text-align: left;
 }
 
@@ -132,6 +132,7 @@ p {
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
+  border-color: #333;
   color: white;
   font-size: 18px;
   line-height: 27px;
@@ -140,7 +141,7 @@ p {
 
 .btn-branding:hover {
   background: var(--branding-color);
-  color: white;
+  color: #000;
 }
 
 .p-heading {
@@ -232,7 +233,7 @@ i.fa-brands {
   }
 
   .hero {
-    height: 40vh;
+    height: 80vh;
     width: 100vw;
   }
 
